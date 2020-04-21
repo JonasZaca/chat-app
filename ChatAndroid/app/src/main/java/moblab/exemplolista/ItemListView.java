@@ -1,8 +1,5 @@
 package moblab.exemplolista;
 
-/**
- * Created by charles on 15/07/16.
- */
 public class ItemListView {
 
     private String texto;

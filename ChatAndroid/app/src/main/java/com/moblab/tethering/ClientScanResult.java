@@ -1,8 +1,6 @@
 package com.moblab.tethering;
 
-/**
- * Created by charles on 07/08/16.
- */
+
 public class ClientScanResult {
     private String IpAddr;
     private String HWAddr;

@@ -211,14 +211,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public String getMyIP() {
-        WifiManager wifiManager = (WifiManager) MainActivity.this.getSystemService(Context.WIFI_SERVICE);
+        WifiManager wifiManager = (WifiManager) MainActivity.this.getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         int ips = wifiManager.getConnectionInfo().getIpAddress();
         String ipAddress = Formatter.formatIpAddress(ips);
         return ipAddress;
     }
 
     public String getServerIP() {
-        WifiManager wifiManager = (WifiManager) MainActivity.this.getSystemService(Context.WIFI_SERVICE);
+        WifiManager wifiManager = (WifiManager) MainActivity.this.getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         int ips = wifiManager.getConnectionInfo().getIpAddress();
         @SuppressWarnings("deprecation")
         String ipAddress = Formatter.formatIpAddress(ips);
@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
     public String getIPRede(int ip) {
 
         if (!gerenciaRedeD2D.iTethering) {
-            WifiManager wifiManager = (WifiManager) MainActivity.this.getSystemService(Context.WIFI_SERVICE);
+            WifiManager wifiManager = (WifiManager) MainActivity.this.getApplicationContext().getSystemService(Context.WIFI_SERVICE);
             int ips = wifiManager.getConnectionInfo().getIpAddress();
             @SuppressWarnings("deprecation")
             String ipAddress = Formatter.formatIpAddress(ips);

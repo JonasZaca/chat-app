@@ -8,9 +8,6 @@ import java.io.ObjectOutputStream;
 import java.net.InetAddress;
 import java.net.Socket;
 
-/**
- * Created by charles on 22/08/16.
- */
 public class ConexaoCliente {
 
     private ObjectOutputStream enviaDados;

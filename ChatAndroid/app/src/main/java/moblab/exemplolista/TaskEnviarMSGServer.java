@@ -3,9 +3,7 @@ package moblab.exemplolista;
 import android.os.AsyncTask;
 import android.util.Log;
 
-/**
- * Created by charles on 22/08/16.
- */
+
 public class TaskEnviarMSGServer extends AsyncTask<String, String, String> {
 
     private int porta = 5555;

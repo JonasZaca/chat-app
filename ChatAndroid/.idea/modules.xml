@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ChatAndroid.iml" filepath="$PROJECT_DIR$/ChatAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/ChatAndroid-app.iml" filepath="$PROJECT_DIR$/app/ChatAndroid-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TextWIn-ChatAndroid.iml" filepath="$PROJECT_DIR$/TextWIn-ChatAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

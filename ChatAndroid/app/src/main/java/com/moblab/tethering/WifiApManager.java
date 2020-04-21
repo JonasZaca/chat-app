@@ -14,9 +14,7 @@ import java.net.InetAddress;
 import java.util.ArrayList;
 import java.util.Random;
 
-/**
- * Created by charles on 07/08/16.
- */
+
 public class WifiApManager {
     public final WifiManager mWifiManager;
     private Context context;

@@ -31,9 +31,7 @@ import moblab.exemplolista.ItemListView;
 import moblab.exemplolista.MainActivity;
 import moblab.exemplolista.TaskReceberMSGServer;
 
-/**
- * Created by charles on 14/08/16.
- */
+
 // Essa AsyncTask e uma Thread que roda em background na aplicacao. O loop dela e infinito
 // e fica atualizando lista de mensagens solicitando o webservice.
 public class GerenciaRedeD2D extends AsyncTask<String, String, List> {

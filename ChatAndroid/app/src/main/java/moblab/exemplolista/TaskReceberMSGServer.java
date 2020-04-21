@@ -11,9 +11,7 @@ import java.io.ObjectOutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-/**
- * Created by charles on 22/08/16.
- */
+
 public class TaskReceberMSGServer extends AsyncTask<String, String, String> {
 
     public int portaServidor = 5555;
